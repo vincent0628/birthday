@@ -9,8 +9,7 @@ body {
   background: #E5E5E5;
   background-image: url("bgs2.jpg");
   background-size: cover;
-  /* background-repeat: no repeat !important; */
-  
+  /* background-repeat: no-repeat !important; */
 }
 
 #card-front {
@@ -273,13 +272,13 @@ font-family: 'Lobster', cursive;
 }
 
 .fuego:nth-child(2) {
-  -webkit-animation: fuego 1.5s 5.5s infinite;
-          animation: fuego 1.5s 5.5s infinite;
+  -webkit-animation: fuego 1s 5.5s infinite;
+          animation: fuego 1s 5.5s infinite;
 }
 
 .fuego:nth-child(3) {
-  -webkit-animation: fuego 1s 5.5s infinite;
-          animation: fuego 1s 5.5s infinite;
+  -webkit-animation: fuego 0.5s 5.5s infinite;
+          animation: fuego 0.5s 5.5s infinite;
 }
 
 .fuego:nth-child(4) {
