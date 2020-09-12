@@ -55,12 +55,14 @@ body {
   transition: transform 1s ease-in-out;
   transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
   position: absolute;
-  top: 0;
-  bottom: 20%;
-  right: 0;
-  left: 0;
-  margin-top: 10%; /*set to a negative number 1/2 of your height*/
-  margin-left: 25%; /*set to a negative number 1/2 of your width*/
+  top: 10%;
+  bottom: 10%;
+  right:10%;
+  left: 10%;
+  margin-top: 10%; 
+  margin-bottom: 10%; 
+  /* margin-left: 25%;
+  margin-right: 25%; */
 }
 
 
