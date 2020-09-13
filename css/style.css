@@ -11,13 +11,13 @@
     
 body {
   /* background: #E5E5E5; */
-  background-image: url("2020816_200913.jpg");
-  /* background-image: url("bgs2.jpg"); */
+  /* background-image: url("2020816_200913.jpg"); */
+  background-image: url("bgs2.jpg");
   /* background-repeat: no-repeat !important; */
   /* background-repeat: no-repeat; */
-  background-size: cover;
+  /* background-size: cover; */
   position: relative;
-  /* height: 1024px; */
+  height: 1024px;
 
 }
 
