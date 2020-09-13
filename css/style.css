@@ -4,12 +4,21 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { }
+    
 body {
-  background: #E5E5E5;
-  background-image: url("bgs2.jpg");
-  background-size: cover;
+  /* background: #E5E5E5; */
+  background-image: url("2020816_200913.jpg");
+  /* background-image: url("bgs2.jpg"); */
   /* background-repeat: no-repeat !important; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: relative;
+  /* height: 1024px; */
+
 }
 
 #card-front {
@@ -59,8 +68,8 @@ body {
   bottom: 1%;
   right:1%;
   left: 1%;
-  margin-top: 10%; 
-  margin-bottom: 10%; 
+  margin-top: 1%; 
+  margin-bottom: 1%; 
   /* margin-left: 25%;
   margin-right: 25%; */
 }
