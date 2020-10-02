@@ -2,14 +2,16 @@
   function $(id) {
     return document.getElementById(id);
   }
-
   var card = $('card'),
       openB = $('open'),
       closeB = $('close'),
+      myAudio = $('myAudio'),
       timer = null;
+  
   openB.addEventListener('click', function () {
     var password = prompt("Please enter password", "Anniversary, 4 digits");
     if (password == '0722') {
+      myAudio.play();
       card.setAttribute('class', 'open-half');
       if (timer) clearTimeout(timer);
       timer = setTimeout(function () {

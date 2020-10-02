@@ -450,3 +450,8 @@ font-family: 'Lobster', cursive;
 .center {
   margin:0 auto
 }
+
+[data-balloon]:after {
+  font-size: 18px !important;
+}
+/* Show tooltip content on hover */
