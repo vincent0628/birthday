@@ -6,11 +6,10 @@
       openB = $('open'),
       closeB = $('close'),
       timer = null;            
-
+  const myAudio = [$('myAudio1'),$('myAudio2')]
+  var randomSelection = Math.floor(Math.random() * (myAudio.length)); 
   openB.addEventListener('click', function () {
     var password = prompt("Please enter password", "Anniversary, 4 digits");
-    const myAudio = [$('myAudio1'),$('myAudio2')]
-    var randomSelection = Math.floor(Math.random() * (myAudio.length)); 
     if (password == '0722') {
       myAudio[randomSelection].play();
       if (randomSelection ==0){myAudio[randomSelection+1].style.display="none";}
